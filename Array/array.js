@@ -382,10 +382,11 @@ Ex: powerElementIndex(nums) => [0, 5, 16, 27, 16, 100000]
 function powerElementIndex(arr){
     var arr2 = [];
     for (let i = 0; i < arr.length; i++) {
-        arr2 = arr[i] * i;
+        arr2.push (arr[i] ** i);
     }
-}
 return arr2;
+
+}
 /*
 22
 Create a function called evenNumberEvenIndex
